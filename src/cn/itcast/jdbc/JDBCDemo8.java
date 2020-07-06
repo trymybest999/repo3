@@ -62,6 +62,8 @@ public class JDBCDemo8 {
                 double bonus = res.getDouble("bonus");
                 int dept_id = res.getInt("dept_id");
 
+                System.out.println("这是为了测试代码更新后如何上传到GitHub");
+
                 //emp对象的成员变量分别赋值
                 emp.setId(id);
                 emp.setEname(ename);
