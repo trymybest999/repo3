@@ -14,6 +14,7 @@ public class Demo02SimpleDateFormat {
         System.out.println(format.format(date));
         System.out.println(dateFormat.format(date));
         Date date1  = dateFormat.parse(str);
+        System.out.println(date1);
         System.out.println(format.format(date1));
     }
 }

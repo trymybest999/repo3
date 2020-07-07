@@ -4,7 +4,7 @@ import java.util.Calendar;
 
 
 
-public class Demo01CalendarInit {
+public class Student {
 
     public static void main(String[] args) {
         Calendar instance = Calendar.getInstance();
